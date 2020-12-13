@@ -1,0 +1,334 @@
+Version=11111
+Setting type=CNC controller settings
+
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+;Vor Änderungen an dieser Datei muss Estlcam unbedingt geschlossen werden - sonst gehen die Änderungen verloren!
+;Die "Steuerungselektronik" Liste der Grundeinstellungen setzt alles auf Standardwerte zurück - klicke Sie nach manuellen Änderungen nicht mehr an!
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enabled=yes
+Hardware=G_Safe
+Firmware=G_Safe
+Port=COM3
+
+;Axis configuration
+X steps rev=400
+Y steps rev=400
+Z steps rev=400
+X distance rev=3
+Y distance rev=3
+Z distance rev=3
+X feedrate=25
+Y feedrate=25
+Z feedrate=25
+X inertia=85
+Y inertia=85
+Z inertia=85
+X inverted=no
+Y inverted=no
+Z inverted=no
+
+Acceleration distance=2
+Min feedrate=2
+Fast Diagonal=no
+Invert enable output=no
+Switch enable output=no
+
+Override oversampling=-1
+Override pulse=999999999
+Manual programming reset=no
+
+Position X=490
+Position Y=-7060
+Position Z=-617
+Home offset X=8488
+Home offset Y=56658
+Home offset Z=9305
+Feedrate=25
+RPM=8000
+Last CNC file=C:\Users\Florian\Nextcloud\Fräsen\Fahr.nc
+Last CNC line=0
+Last CNC rotation=355,78819506536871
+Balance message=yes
+
+;Spindle configuration
+RPM min=8000
+RPM max=24000
+RPM delay=0,5
+PWM min=10
+PWM max=90
+PWM Frequency=0
+Spindle output inverted=no
+
+;Inputs
+Input 1 name=Input 1
+Input 1 function=1
+Input 1 inverted=yes
+Input 1 pull-up=yes
+
+Input 2 name=Input 2
+Input 2 function=0
+Input 2 inverted=no
+Input 2 pull-up=yes
+
+Input 3 name=Input 3
+Input 3 function=0
+Input 3 inverted=no
+Input 3 pull-up=yes
+
+Input 4 name=Input 4
+Input 4 function=0
+Input 4 inverted=no
+Input 4 pull-up=yes
+
+Input 5 name=Input 5
+Input 5 function=5
+Input 5 inverted=yes
+Input 5 pull-up=yes
+
+Input 6 name=Input 6
+Input 6 function=0
+Input 6 inverted=no
+Input 6 pull-up=yes
+
+Input 7 name=Input 7
+Input 7 function=0
+Input 7 inverted=no
+Input 7 pull-up=yes
+
+Input 8 name=Input 8
+Input 8 function=2
+Input 8 inverted=no
+Input 8 pull-up=yes
+
+Input 9 name=Input 9
+Input 9 function=0
+Input 9 inverted=no
+Input 9 pull-up=yes
+
+Input 10 name=Input 10
+Input 10 function=0
+Input 10 inverted=no
+Input 10 pull-up=yes
+
+Input 11 name=Input 11
+Input 11 function=0
+Input 11 inverted=no
+Input 11 pull-up=yes
+
+Input 12 name=Input 12
+Input 12 function=0
+Input 12 inverted=no
+Input 12 pull-up=yes
+
+Input 13 name=Input 13
+Input 13 function=0
+Input 13 inverted=no
+Input 13 pull-up=yes
+
+Input 14 name=Input 14
+Input 14 function=0
+Input 14 inverted=no
+Input 14 pull-up=yes
+
+Input 15 name=Input 15
+Input 15 function=0
+Input 15 inverted=no
+Input 15 pull-up=yes
+
+Input 16 name=Input 16
+Input 16 function=0
+Input 16 inverted=no
+Input 16 pull-up=yes
+
+;Outputs
+Output 1 name=Output 1
+Output 1 picture=img_flood
+
+Output 2 name=Output 2
+Output 2 picture=img_mist
+
+Output 3 name=Output 3
+Output 3 picture=img_vac
+
+Output 4 name=Output 4
+Output 4 picture=img_compressor
+
+Output 5 name=Output 5
+Output 5 picture=img_light
+
+Output 6 name=Output 6
+Output 6 picture=
+
+Output 7 name=Output 7
+Output 7 picture=
+
+Output 8 name=Output 8
+Output 8 picture=
+
+;Homing
+Auto home=no
+Home switch location X=0
+Home switch location Y=1
+Home switch location Z=1
+Homing speed=20
+Homing probe speed=1
+Check step losses=yes
+Zero after homing=yes
+Travel limits enabled=no
+Travel limit X=410
+Travel limit Y=590
+Travel limit Z=135
+Deceleration distance=25
+Park after homing=no
+Park after controller start=no
+Park after CNC program end=no
+Park after M00 M01=no
+Parking position X=0
+Parking position Y=0
+Parking position Z=0
+
+;Tool sensor
+Tool sensor probe speed=2
+Tool sensor back up distance=5
+Tool sensor fixed position=no
+Tool sensor fixed position X=0
+Tool sensor fixed position Y=0
+Tool sensor fixed position Z=0
+Tool sensor fixed Z=yes
+Tool sensor Z value=35
+
+;Touch plate
+Touch plate probe speed=5
+Touch plate probe distance=20
+Touch plate angle measurement distance=40
+Touch plate margin X=5
+Touch plate margin Y=5
+Touch plate margin Z=3,5
+
+;Keyboard
+Keyboard enabled=yes
+Key 0=104
+Key 1=105
+Key 2=102
+Key 3=99
+Key 4=98
+Key 5=97
+Key 6=100
+Key 7=103
+Key 8=33
+Key 9=34
+Key 10=38
+Key 11=40
+Key 12=39
+Key 13=37
+Key 14=113
+Key 15=32
+Key 16=50
+Key 17=51
+Key 18=52
+Key 19=53
+Key speed 0=2
+Key speed 1=10
+Key speed 2=25
+Key speed 3=50
+Key speed 4=100
+
+;Gamepad
+Gamepad enabled=no
+Gamepad low speed=2
+Gamepad high speed=100
+Gamepad exponent=0
+Gamepad sensitivity=2
+Gamepad single axis=no
+Gamepad beep=no
+
+;External controls
+Feed override knob enabled=no
+Feed override knob min pos=13107
+Feed override knob max pos=52429
+Spindle override knob enabled=no
+Spindle override knob min pos=13107
+Spindle override knob max pos=52429
+Jog wheel enabled=no
+Jog wheel X inverted=no
+Jog wheel Y inverted=no
+Jog wheel Z inverted=no
+Jog wheel coupled 1=yes
+Jog wheel coupling factor 1=1:1
+Jog wheel speed 1=10
+Jog wheel coupled 2=yes
+Jog wheel coupling factor 2=2:1
+Jog wheel speed 2=50
+Jog wheel coupled 3=yes
+Jog wheel coupling factor 3=1:1
+Jog wheel speed 3=100
+Jog wheel coupled 4=no
+Jog wheel coupling factor 4=1:1
+Jog wheel speed 4=10
+Jog wheel coupled 5=no
+Jog wheel coupling factor 5=1:1
+Jog wheel speed 5=50
+Jog wheel coupled 6=no
+Jog wheel coupling factor 6=1:1
+Jog wheel speed 6=100
+Jog wheel sensitivity=75
+Joystick X enabled=no
+Joystick Y enabled=no
+Joystick Z enabled=no
+Joystick X inverted=no
+Joystick Y inverted=no
+Joystick Z inverted=no
+Joystick X center=50
+Joystick Y center=50
+Joystick Z center=50
+Joystick X backlash=10
+Joystick Y backlash=10
+Joystick Z backlash=10
+Joystick speed 1=100
+Joystick speed 2=10
+Joystick speed 3=20
+Joystick speed 4=100
+Joystick speed 5=100
+Joystick speed 6=100
+Joystick expo 1=60
+Joystick expo 2=0
+Joystick expo 3=0
+Joystick expo 4=0
+Joystick expo 5=0
+Joystick expo 6=0
+Joystick single axis 1=no
+Joystick single axis 2=yes
+Joystick single axis 3=yes
+Joystick single axis 4=no
+Joystick single axis 5=no
+Joystick single axis 6=no
+Joystick beep 1=yes
+Joystick beep 2=yes
+Joystick beep 3=yes
+Joystick beep 4=no
+Joystick beep 5=no
+Joystick beep 6=no
+Joystick sensitivity=5
+Module=
+
+Webcam application=
+Webcam window margin left=0
+Webcam window margin right=0
+Webcam window margin top=0
+Webcam window margin bottom=0
+Webcam tool offset X=0
+Webcam tool offset Y=0
+Webcam tool offset Z=0
+Webcam aligned to preview=no
+;Misc
+Back up distance=1
+Surface scan speed=2
+Touch mode=no
+
+;Bootloader
+Bootloader Baudrate=57600
+Bootloader Reset_Time=20
+Bootloader Wait_Time=500
+
+Preset info=
