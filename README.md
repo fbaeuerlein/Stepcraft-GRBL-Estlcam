@@ -41,7 +41,7 @@ This repository should give some hints (and helps me to memorize the settings) h
 | Stepcraft CNC Milling machine | D 600         |
 | Arduino Nano                  | n/a           |
 | Spindle                       | Kress 1050    |
-| Laser                         | Neje 30W ([link]([link](https://wiki.nejetool.com/doku.php?id=laser_module_406030w)))|
+| Laser                         | Neje 30W ([link](https://wiki.nejetool.com/doku.php?id=laser_module_406030w))|
 
 ## Additional tools/devices
 
